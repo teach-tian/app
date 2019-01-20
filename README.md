@@ -4,11 +4,16 @@
 
 本文整理了移动端常见的一些事件，包括原生支持的click、touch、tap、swipe事件
 
+### 绑定移动端事件，必须使用事件侦听的方式  ：
+```
+box.addEventListener('touchstart',fn,false);
 
+
+```
 
 ## 一、事件定义及分类
 
-1. click事件
+# 1. click事件
 
 单击事件，类似于PC端的click，但在移动端中，连续click的触发有200ms ~ 300ms的延迟
 
