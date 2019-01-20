@@ -6,7 +6,16 @@
 
 ### 绑定移动端事件，必须使用事件侦听的方式  ：
 ```
+//1.事件类型   2.事件函数  3.事件传递方式  默认：false  (冒泡)   true(捕获)
 box.addEventListener('touchstart',fn,false);
+
+function fn(e){
+//阻止事件冒泡
+e.stopPropagation();
+//三个属性changedTouches、targetTouches、touches //保存了当前所触碰屏幕的手指信息
+console.log(e)
+
+}
 
 
 ```
