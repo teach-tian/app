@@ -42,7 +42,7 @@ touchcancel：可由系统进行的触发，比如手指触摸屏幕的时候，
 
 触碰事件，我目前还不知道它和touch的区别，一般用于代替click事件，有tap longTap singleTap doubleTap四种之分
 
-tap: 手指碰一下屏幕会触发
+tap: 手指碰一下屏幕会触发  (touchstart+touchend)
 
 longTap: 手指长按屏幕会触发
 
